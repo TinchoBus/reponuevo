@@ -1,0 +1,225 @@
+
+body {
+    background-color:thistle;
+
+  }
+
+  #imagen-curricular{  /*foto*/
+    width: 250px;
+    height: 250px;
+    pointer-events: none;
+
+  }
+
+  .menu__title{
+    font-size: 40px;
+    text-align: center;
+    color: greenyellow;
+    background-color: rgb(8, 8, 8);
+    
+    
+  }
+
+  .menu__list{
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-items: center;
+  }
+  #items{
+    display: flex;
+    margin-right: 100px;
+    align-items: center;
+    justify-content: left;
+    font-size: 5px;
+    
+       
+  }
+  
+
+  li{  /* sobre mi skill hobbies etc*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    margin-right: 100px;
+    text-decoration: none;
+    color: inherit;
+  
+    
+  }
+  .menu__list:hover{  /*efecto*/
+    
+    transition: 1s;
+    background-color: rgb(175, 189, 21);
+    border-radius: 50%;
+    box-shadow: 0 0 30px 5px rgb(5, 192, 117) ;
+    border: 2px solid rgb(255, 0, 174);
+
+
+  }
+  #firma{
+    width: 100px;
+    height: 100px;
+  }
+
+  h4{
+    font-size: 30px;
+  }
+  h5{
+    font-size: 23px;
+  }
+
+img{
+ 
+  width: 30px;
+  height: 30px;
+  margin-right: 100px;
+  color:yellowgreen;
+  transition: 0.3s;
+  
+    
+} 
+
+img:hover{
+  transform: scale(1.3);
+  color: black;
+  transition: 0.3s;
+  animation: infinite 2s linear infinite;
+}
+
+h3{
+  font-size: 25px;
+} 
+#formacion1{  /*argentina programa*/
+  height: 100px;
+  width: 100px;
+ 
+}
+#formacion2{  /*egg*/
+  height: 100px;
+  width: 100px;
+
+}
+#formacion3{  /*oracle*/
+  height: 100px;
+  width: 100px;
+
+}
+#formacion4{   /*codo a codo*/
+  height: 100px;
+  width: 100px;
+
+}
+#skills{ /*habilidades*/
+ font-size: 24px; 
+ display: inline-block;
+ margin-right: 10px;
+ 
+  
+}
+.experience{
+  font-size: 20px;
+  height: 100;
+
+}
+#portafo{ /*imagen portafolio*/
+  width: 50px;
+  height: 50px;
+  fill: red;
+  transition: transform 0.3s ease;
+}
+
+#portafo:hover{
+  transform: scale(1.2);
+}
+.experiencie__box{
+  font-size: 20px;
+  height: 100;
+
+}
+#compu{
+  width: 50px;
+  height: 50px;
+  fill: red;
+  transition: transform 0.3s ease;
+  font-size: 24px;
+  margin-top: 20px;
+
+
+}
+#compu:hover{
+  transform: scale(1.2);
+}
+
+#serv{
+  width: 50px;
+  height: 50px;
+  fill: red;
+  transition: transform 0.3s ease;
+  font-size: 24px;
+  margin-top: 20px;
+
+}
+#serv:hover{
+  transform: scale(1.2);
+}
+#proye{
+  width: 50px;
+  height: 50px;
+  fill: red;
+  transition: transform 0.3s ease;
+  font-size: 24px;
+  margin-top: 20px;
+
+}
+#proye:hover{
+  transform: scale(1.2);
+}
+
+#comun{
+  width: 70px;
+  height: 70px;
+  fill: red;
+  transition: transform 0.3s ease;
+  font-size: 20px;
+  margin-top: 20px;
+
+}
+#comun:hover{
+  transform: scale(1.2);
+}
+.formcontato__title{
+  font-size: 40px;
+  color: rgb(4, 79, 175);
+  transition: 1s;
+  border-radius: 50%;
+  box-shadow: 0 0 50px;
+  text-align: center;
+}
+button{
+  color: aliceblue;
+  background-color: blueviolet;
+  border-style: solid;
+  padding: 10px 10px 10px;
+}
+button:hover {
+  background: transparent;
+  color: tomato;
+  box-shadow: 0 0 25px #fec1958c;
+}
+.footer__rodape{
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: #0a0606;
+  transition: text-shadow 0.3s ease;
+}
+.footer__rodape:hover{
+  text-shadow: 0 0 8px rgba(4, 138, 4, 0.8) ;
+}
+
+
+  
+

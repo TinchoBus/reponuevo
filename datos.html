@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Datos cargados</title>
+</head>
+<body>
+    <h1>Gracias por tu mensaje</h1>
+    <p>Los datos han sido cargados correctamente</p>
+    
+    <script language="javascript">
+        var args = location.search.substr(1).split('&');
+        for (var i = 0; i < args.length; ++i) {
+          var parts = args[i].split('=');
+          if (parts != null) {
+            var field = parts[0];
+            var value = parts[1];
+            if (value == null) {
+              value = "null"
+            }
+            else {
+              value = '"' + unescape(value.replace(/\+/g, ' ')) + '"';
+            }
+  
+            document.writeln('<tr><td align="center">' + field + '</td>');
+            document.writeln('<td align="center">' + value + '</td></tr>');
+          }
+        }
+      </script>
+ 
+
+    
+</body>
+<section class="footer">
+    <div class="footer__rodape">
+        <p> Página desarrollada por Martin Bustos, en colaboración con Tupac's Enterprise, todos los derechos reservados</p>
+        <p> &copy;Copyrigth 2024</p>
+    </div>
+</section>
+
+</html>
